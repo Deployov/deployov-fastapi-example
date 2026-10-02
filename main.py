@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return {"status": "ok", "framework": "fastapi", "port": os.getenv("PORT", "8000")}
+    return {"status": "ok", "Deployka-test":"pass", "framework": "fastapi", "port": os.getenv("PORT", "8000")}
 
 @app.get("/health")
 def health():
